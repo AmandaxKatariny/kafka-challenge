@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kafka-challenge" />
+        <module name="service-log" />
+        <module name="service-new-card-purchase" />
+        <module name="common" />
+        <module name="service-validate-card" />
       </profile>
     </annotationProcessing>
   </component>
