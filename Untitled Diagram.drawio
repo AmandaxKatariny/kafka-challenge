@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T13:37:38.108Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Arb0H_Vh95cU8-oxPZNm" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-20T13:51:29.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Ikx6eqs__9eWUWjRlssO" version="16.0.0" type="github">
   <diagram id="s5mQs_0Q7oqinASFn5ZI" name="Page-1">
     <mxGraphModel dx="1236" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -85,6 +85,15 @@
         </mxCell>
         <mxCell id="w4_WAGRUC1QyHR1W2YiL-1" value="email_confirmacao_compra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="760" y="964" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gnA9O6ZoZHYOhi90immP-1" value="&lt;h1&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;cartao_check&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;verifica dados do cartão:&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;cvv&lt;br&gt;&lt;span&gt;numero&lt;br&gt;&lt;/span&gt;&lt;span&gt;validade&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#BFBFBF;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="620" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gnA9O6ZoZHYOhi90immP-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;limite_check&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;verifica se valor da compra é compatível com o limite disponível no cartão:&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#BFBFBF;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="605" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gnA9O6ZoZHYOhi90immP-3" value="&lt;h1&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;email_confirmacao_compra&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;envia email se não houver fraude&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#BFBFBF;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="830" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
